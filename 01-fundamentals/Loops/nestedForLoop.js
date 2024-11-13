@@ -1,6 +1,6 @@
-for (let i = 1; i<=5 ; i++){
+for (let d = 1; d<=5 ; d++){
     let dance = '';
-for (let a = 0; a<=i; a++){
+for (let a = 0; a<=d; a++){
    dance = dance + '*';
 } 
 console.log(dance)
