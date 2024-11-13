@@ -4,10 +4,10 @@ function reverseNum(num) {
     {
     reverse = reverse * 10;
     reverse = reverse + num%10;
-    num = Math.trunc(num/10); // Remove decimal places
+    num = Math.trunc(num/10); 
     }
     return reverse;
     }
     
-    console.log(reverseNum(123)) //321
-    console.log(reverseNum(5872)) //2785
+    console.log(reverseNum(123)) 
+    console.log(reverseNum(5872)) 
