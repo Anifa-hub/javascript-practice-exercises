@@ -1,5 +1,5 @@
 function reverseNum(num) {
-    var reverse = 0;
+    let reverse = 0;
     while(num != 0)
     {
     reverse = reverse * 10;
@@ -11,3 +11,7 @@ function reverseNum(num) {
     
     console.log(reverseNum(123)) 
     console.log(reverseNum(5872)) 
+    // or we can use the following ways
+    let num = 123
+    let num2 = num.toString().split('').reverse().join('')
+    console.log(parseInt(num2))
