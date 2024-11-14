@@ -13,5 +13,5 @@ function reverseNum(num) {
     console.log(reverseNum(5872)) 
     // or we can use the following ways
     let num = 123
-    let num2 = num.toString().split('').reverse().join('')
+    let num2 = num.toString().split('').reverse().join('')*Math.sign(num)
     console.log(parseInt(num2))
