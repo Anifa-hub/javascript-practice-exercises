@@ -8,8 +8,7 @@ for(let i=newNumber.length-1;i>=0;i--){ // 3-1=2  2>=0 true , 2--=1,  1>=0 true 
 }
 console.log (Number(reverse.join('')))
 
-//const arr=[1,2,3,4]
-//console.log = ((arr[3],arr[2],arr[1],arr[0]).);
+
 
 
 
