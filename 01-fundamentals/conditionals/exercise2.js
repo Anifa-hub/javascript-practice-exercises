@@ -1,6 +1,6 @@
 let numbers = [77,88,95,68];
 let sum = 0;
-for ( i=0; i<numbers.length; i++){
+for (let i=0; i<numbers.length; i++){
    sum += numbers[i] 
 }
 let average = sum / numbers.length
