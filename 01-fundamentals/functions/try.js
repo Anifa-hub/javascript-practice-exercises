@@ -7,6 +7,14 @@ for(let i=newNumber.length-1;i>=0;i--){ // 3-1=2  2>=0 true , 2--=1,  1>=0 true 
     reverse.push(newNumber[i]);
 }
 console.log (Number(reverse.join('')))
+// other way
+function reverseNum (num){
+   
+    let newNum = num.toString().split('').reverse().join('')
+    return newNum
+    
+    }
+    console.log(reverseNum(123))
 
 
 
