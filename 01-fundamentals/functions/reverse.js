@@ -15,3 +15,4 @@ function reverseNum(num) {
     let num = 123
     let num2 = num.toString().split('').reverse().join('')*Math.sign(num)
     console.log(parseInt(num2))
+    
